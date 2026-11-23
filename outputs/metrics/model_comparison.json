@@ -1,0 +1,68 @@
+[
+    {
+        "Model": "Random Forest",
+        "Threshold Type": "Default",
+        "Threshold": 0.5,
+        "Accuracy": 0.8435374149659864,
+        "F1-score": 0.5208333333333334,
+        "Precision": 0.5102040816326531,
+        "Recall": 0.5319148936170213,
+        "ROC-AUC": 0.8023946937720733,
+        "Average Precision": 0.49511205453470797
+    },
+    {
+        "Model": "Random Forest",
+        "Threshold Type": "Tuned",
+        "Threshold": 0.41294328503101574,
+        "Accuracy": 0.7959183673469388,
+        "F1-score": 0.4915254237288136,
+        "Precision": 0.4084507042253521,
+        "Recall": 0.6170212765957447,
+        "ROC-AUC": 0.8023946937720733,
+        "Average Precision": 0.49511205453470797
+    },
+    {
+        "Model": "XGBoost",
+        "Threshold Type": "Default",
+        "Threshold": 0.5,
+        "Accuracy": 0.8299319727891157,
+        "F1-score": 0.4791666666666667,
+        "Precision": 0.46938775510204084,
+        "Recall": 0.48936170212765956,
+        "ROC-AUC": 0.7998104918597639,
+        "Average Precision": 0.515174766133929
+    },
+    {
+        "Model": "XGBoost",
+        "Threshold Type": "Tuned",
+        "Threshold": 0.3016647398471832,
+        "Accuracy": 0.7687074829931972,
+        "F1-score": 0.45161290322580644,
+        "Precision": 0.36363636363636365,
+        "Recall": 0.5957446808510638,
+        "ROC-AUC": 0.7998104918597639,
+        "Average Precision": 0.515174766133929
+    },
+    {
+        "Model": "Ensemble",
+        "Threshold Type": "Default",
+        "Threshold": 0.5,
+        "Accuracy": 0.8299319727891157,
+        "F1-score": 0.4791666666666667,
+        "Precision": 0.46938775510204084,
+        "Recall": 0.48936170212765956,
+        "ROC-AUC": 0.8062709966405376,
+        "Average Precision": 0.5097623314364309
+    },
+    {
+        "Model": "Ensemble",
+        "Threshold Type": "Tuned",
+        "Threshold": 0.4552509206490003,
+        "Accuracy": 0.8231292517006803,
+        "F1-score": 0.48,
+        "Precision": 0.4528301886792453,
+        "Recall": 0.5106382978723404,
+        "ROC-AUC": 0.8062709966405376,
+        "Average Precision": 0.5097623314364309
+    }
+]
